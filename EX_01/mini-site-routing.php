@@ -10,6 +10,7 @@
             <a href = "" > Accueil </a>
             <a href = "" > Page 2 </a>
             <a href = "" > Page 3 </a>
+            <a href = "admin.php" > Admin </a>
         </header>
         <?php
 
@@ -29,6 +30,10 @@
         ?>
 
             <a hreh= "conexion.php" > Connexion </a>
+        
+        <?php
+            include "admin.php";
+        ?>
             
         
     </body>
