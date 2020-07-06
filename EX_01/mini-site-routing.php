@@ -24,10 +24,12 @@
             if ($_GET ["page3"] == "Page 3 !" ) {
                 echo "link";
              }
+            
+             var_dump ($_POST)
         ?>
 
             <a hreh= "conexion.php" > Connexion </a>
-            var_dump ($_POST)
+            
         
     </body>
 </html>
